@@ -1,0 +1,121 @@
+<html>
+<head>
+<style>
+html { height: 100%; }
+ body {
+  margin: 0; /* Убираем отступы */
+  height: 100%; /* Высота страницы */
+  background: url(fon64.jpg); /* Параметры фона */
+  background-size: cover; /* Фон занимает всю доступную площадь */
+ }
+  .block1 {
+    width: 1250px;
+    background: #c2e254;
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px black;
+    float: left;
+   }
+
+   .block2 {
+       width: 900px;
+       background:#FFFFFF;
+       padding: 5px;
+       padding-right: 20px;
+       border: solid 1px black;
+       float: center;
+      }
+      #footer {
+          position: fixed; /* Фиксированное положение */
+          left: 0; bottom: 0; /* Левый нижний угол */
+          padding: 10px; /* Поля вокруг текста */
+          background: #39b54a; /* Цвет фона */
+          color: #fff; /* Цвет текста */
+          width: 100%; /* Ширина слоя */
+         }
+	.btn {		//Задание общего стиля для кнопки
+	height:120px;
+	border-color:#c2e254 #9bb838 #9bb838 #c2e254;
+	border-style:solid;
+	border-width:1px;
+	background:#c2e254;
+	cursor:pointer;
+	}
+	.btn:hover {	//Стиль кнопки при новедении на него курсора
+	border-color:#FFCC66 #FFFF99 #FFFF99 #FFCC66;
+	border-style:solid;
+	border-width:1px;
+	background:#FFFF99;
+	}
+	.btn:focus {	//Стиль кнопки, когда она в фокусе
+	background:#ddd;
+	border-color:#ddd #333 #333 #ddd;
+	border-style:solid;
+	border-width:1px;
+	}
+	.btn:active {		//Стиль кнопки при нажатии
+	background:#ff0000;
+	border-color:#ddd #333 #333 #ddd;
+	border-style:solid;
+	border-width:1px;
+	}
+</style>
+</head>
+<body bgcolor="#98FB98">
+<div class="block1">
+<h1>С++ для начинающих</h1>
+<form>
+<center>
+	<input type="button" value="Главная страница" class="btn" onclick="javascript:window.location='main.html'"/>
+	<input type="button" value="История" class="btn" onclick="javascript:window.location='history.html'"/>
+	<input type="button" value="Уроки" class="btn" onclick="javascript:window.location='lessons.html'"/>
+	<input type="button" value="Задания" class="btn" onclick="javascript:window.location='education1.html'"/>
+	<input type="button" value="Тест" class="btn" onclick="javascript:window.location='education2.html'"/>
+    	<input type="button" value="Литература" class="btn" onclick="javascript:window.location='let.html'"/>
+</center>
+</form>
+</div>
+<center><h2><big><big>История возникновения языка программирования С++</big></big></h2></center>
+<center><div class="block2">
+<p align="left"><big>C++ компилируемый язык программирования общего назначения, сочетает свойства как высокоуровневых, так и низкоуровневых языков программирования. В сравнении с его предшественником, языком программирования Cи, наибольшее внимание уделено поддержке объектно-ориентированного и обобщённого программирования. Название «язык программирования C++» происходит от языка программирования C, в котором унарный оператор ++ обозначает инкремент переменной.
+<br><br>
+Язык программирования C++ широко используется для разработки программного обеспечения. А именно, создание разнообразных прикладных программ, разработка операционных систем, драйверов устройств, а также видео игр и многое другое. Существует несколько реализаций языка программирования C++ — как бесплатных, так и коммерческих. Их производят проекты: GNU, Microsoft и Embarcadero (Borland). Проект GNU  — проект разработки свободного программного обеспечения (СПО).
+<br><br>
+<font color="green"><u> Язык программирования С++ был создан в начале 1980-х годов, его создатель сотрудник фирмы Bell Laboratories — Бьёрн Страуструп.
+</u></font>
+<br><br>
+<table>
+  <tr>
+  <td>
+    <p align="left">
+     <a href="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D1%80%D0%B0%D1%83%D1%81%D1%82%D1%80%D1%83%D0%BF,_%D0%91%D1%8C%D1%91%D1%80%D0%BD"><img src="Bjarne_Stroustrup.jpg" width="227"
+       height="196">
+     </a>
+   </p>
+ </td>
+ <td>
+    <p align="left">
+      <big>
+Он придумал ряд усовершенствований к языку программирования C, для собственных нужд. Т. е. изначально не планировалось создания языка программирования С++.  Ранние версии языка С++, известные под именем «Cи с классами», начали появляться с 1980 года. Язык C, будучи базовым языком системы UNIX, на которой работали компьютеры фирмы Bell, является быстрым, многофункциональным и переносимым. Страуструп добавил к нему возможность работы с классами и объектами, тем самым зародил предпосылки нового, основанного на синтаксисе С, языка программирования. Синтаксис C++ был основан на синтаксисе C, так как Бьёрн Страуструп стремился сохранить совместимость с языком C.
+<big>
+</p>
+</td>
+</tr>
+</table>
+<br><br>
+<font color="green"><u>В 1983 году произошло переименование языка из «Cи с классами»в «язык программирования C++».
+</u></font>
+<br><br>
+В него были добавлены новые возможности: виртуальные функции, перегрузка функций и операторов, ссылки, константы и многое другое. Его первый коммерческий выпуск состоялся в октябре 1985 года.
+<br><br>
+<font color="green"><u>Язык программирования C++ является свободным, то есть никто не обладает на него правами.
+</u></font>
+</big></P></center>
+<br>
+<br>
+</div>
+<div id="footer">
+  <marquee scrollamount="7">Связаться с нами можно по данной электронной почте zozlolz97@gmail.com</marquee>
+ </div>
+</body>
+</html>
