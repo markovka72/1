@@ -1,0 +1,91 @@
+<head>
+<style>
+html { height: 100%; }
+ body {
+  margin: 0; /* Убираем отступы */
+  height: 100%; /* Высота страницы */
+  background: url(fon64.jpg); /* Параметры фона */
+  background-size: cover; /* Фон занимает всю доступную площадь */
+ }
+  .block1 {
+    width: 1250px;
+    background: #c2e254;
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px black;
+    float: left;
+   }
+
+   .block2 {
+       width: 900px;
+       background:#FFFFFF;
+       padding: 5px;
+       padding-right: 20px;
+       border: solid 1px black;
+       float: center;
+      }
+      #footer {
+          position: fixed; /* Фиксированное положение */
+          left: 0; bottom: 0; /* Левый нижний угол */
+          padding: 10px; /* Поля вокруг текста */
+          background: #39b54a; /* Цвет фона */
+          color: #fff; /* Цвет текста */
+          width: 100%; /* Ширина слоя */
+         }
+	.btn {		//Задание общего стиля для кнопки
+	height:120px;
+	border-color:#c2e254 #9bb838 #9bb838 #c2e254;
+	border-style:solid;
+	border-width:1px;
+	background:#c2e254;
+	cursor:pointer;
+	}
+	.btn:hover {	//Стиль кнопки при новедении на него курсора
+	border-color:#FFCC66 #FFFF99 #FFFF99 #FFCC66;
+	border-style:solid;
+	border-width:1px;
+	background:#FFFF99;
+	}
+	.btn:focus {	//Стиль кнопки, когда она в фокусе
+	background:#ddd;
+	border-color:#ddd #333 #333 #ddd;
+	border-style:solid;
+	border-width:1px;
+	}
+	.btn:active {		//Стиль кнопки при нажатии
+	background:#ff0000;
+	border-color:#ddd #333 #333 #ddd;
+	border-style:solid;
+	border-width:1px;
+	}
+</style>
+</head>
+<body bgcolor="#98FB98">
+<div class="block1">
+<h1>С++ для начинающих</h1>
+<form>
+<center>
+	<input type="button" value="Главная страница" class="btn" onclick="javascript:window.location='main.html'"/>
+	<input type="button" value="История" class="btn" onclick="javascript:window.location='history.html'"/>
+	<input type="button" value="Уроки" class="btn" onclick="javascript:window.location='lessons.html'"/>
+	<input type="button" value="Задания" class="btn" onclick="javascript:window.location='education1.html'"/>
+	<input type="button" value="Тест" class="btn" onclick="javascript:window.location='education2.html'"/>
+    	<input type="button" value="Литература" class="btn" onclick="javascript:window.location='let.html'"/>
+</center>
+</form>
+</div>
+<h2><center><big><big>Основы программирования на языках Си и C++ для начинающих</big></big></center></h2>
+<center>
+<div class="block2">
+
+<p align="left"><big>Этот сайт для начинающих, основная задача которого — объяснить новичку язык программирования С++, с основ и до новейших особенностей ANSI-C++, в том числе такие понятия, как: массивы, структуры, списки, файлы, строки, функции, шаблоны. Не оставим без внимания передовую структуру данных С++ — классы, их основные концепции, такие как полиморфизм, инкапсуляция, наследование.</big></d>
+<p align="left"><big>Руководство ориентировано не только на сухую теорию языка высокого уровня С++, но и на практические задания, с рабочими примерами программ во всех разделах и статьях, чтобы изучать С++ было просто не только новичку, но и любому «чайнику».</big></p>
+
+</div>
+</center>
+
+<div id="footer">
+  <marquee scrollamount="7">Связаться с нами можно по данной электронной почте zozlolz97@gmail.com</marquee>
+ </div>
+
+</body>
